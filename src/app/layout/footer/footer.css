@@ -1,0 +1,7 @@
+*{
+    background-color: rgba(0, 0, 0, 0.214);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+  /* Apila los elementos uno debajo de otro        /* Ocupa toda la altura de la pantalla */
+}

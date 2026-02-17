@@ -1,0 +1,7 @@
+<form [formGroup]="seriesForm" (ngSubmit)="onSubmit()">
+  <input type="text" formControlName="title" placeholder="Título">
+  <input type="text" formControlName="channel" placeholder="Canal">
+  <input type="number" formControlName="rating" placeholder="Rating (0-10)">
+  
+  <button type="submit" [disabled]="seriesForm.invalid">Guardar Serie</button>
+</form>
